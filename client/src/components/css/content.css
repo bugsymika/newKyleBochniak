@@ -1,3 +1,10 @@
+#content-nav {
+  position: sticky;
+  top: 0;
+  font-family: 'Inconsolata', monospace;
+  text-shadow: 1px 1px black;
+}
+
 .content-content {
   height: 100vh;
   width: 100vw;
@@ -6,7 +13,10 @@
 .content-container {
   height: 97vh;
   width: 100vw;
-  overflow: scroll;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 300;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .content-div {
@@ -43,14 +53,16 @@
   text-align: center;
 }
 
-.contact-content h2 {
-  margin: 0px;
+.contact-content h2,
+p {
+  margin: auto;
+  width: fit-content;
 }
 
 .nav-icons {
-  width: 25vw;
+  width: 100vw;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin: auto;
 }
 
@@ -58,21 +70,80 @@
   width: fit-content;
   margin: auto;
   display: flex;
-  align-content: space-between;
 }
 
-#mobileSpacer {
-  height: 3vh;
-  background-color: black;
+h2 {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-size: 1.4rem;
+}
+
+h3 {
+  width: fit-content;
+  margin: auto;
+  padding-top: 10%;
+}
+
+p {
+  font-size: 1rem;
+}
+
+@media (min-width: 321px) {
+  h2 {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    width: fit-content;
+    margin: auto;
+    padding-top: 10%;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
 }
 
 @media (min-width: 1024px) {
-  .content-container,
-  .content-div {
-    height: 97.5vh;
+  .content-container {
+    height: 100vh;
+    overflow-y: scroll;
     scroll-behavior: smooth;
   }
-  #mobileSpacer {
-    display: none;
+  .content-div {
+    height: 100vh;
+  }
+
+  h2 {
+    padding-top: 6vh;
+    padding-bottom: 0%;
+    font-size: 3rem;
+  }
+
+  h3 {
+    width: fit-content;
+    margin: auto;
+    padding-top: 2vh;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+
+  .contact-content {
+    width: 75vw;
+    height: fit-content;
+    padding-top: 14vh;
+    margin: auto;
+  }
+
+  .nav-icons {
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 2vh;
   }
 }

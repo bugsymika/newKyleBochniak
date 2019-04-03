@@ -8,8 +8,6 @@
   display: flex;
   height: 3vh;
   border-top: 1px solid rgb(0, 0, 0);
-  font-family: 'Inconsolata', monospace;
-  text-shadow: 1px 1px black;
 }
 
 .nav :nth-child(3) {

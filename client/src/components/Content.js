@@ -5,8 +5,11 @@ import Nav from './Nav.js';
 export default function Content() {
   return (
     <div className='content-content'>
-      <Nav />
       <div className='content-container'>
+        <div id='content-nav'>
+          <Nav />
+        </div>
+
         <div className='content-div' id='landing' />
         <div className='content-div' id='about'>
           <div className='blackout' />
@@ -19,7 +22,6 @@ export default function Content() {
               <p>
                 I offer private or group sessions in Boxing, Kickboxing,
                 Brazilian Jiu-Jitsu, MMA and Strength & Conditioning
-                <br />
                 <br />
                 $100 per hour / $60 per half hour
               </p>
@@ -39,7 +41,7 @@ export default function Content() {
 
               <h2>Have a business inquiry?</h2>
               <p>Email me at KyleBochniak@gmail.com</p>
-
+              <h2>Follow me on social media! </h2>
               <div className='nav-icons'>
                 <div className='nav-tab'>
                   <a
