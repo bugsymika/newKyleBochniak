@@ -8,15 +8,3 @@ footer {
 .desktop {
   display: none;
 }
-
-@media (min-width: 1024px) {
-  .desktop {
-    display: inline-block;
-    border-top: none;
-    border-bottom: 1px solid black;
-  }
-
-  .mobile {
-    display: none;
-  }
-}

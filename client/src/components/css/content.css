@@ -1,17 +1,17 @@
 .content-content {
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
 }
 
 .content-container {
-  height: 87vh;
+  height: 97vh;
   width: 100vw;
   overflow: scroll;
   scroll-behavior: smooth;
 }
 
 .content-div {
-  height: 90vh;
+  height: 97vh;
   width: 100vw;
   background-repeat: no-repeat;
   background-color: black;
