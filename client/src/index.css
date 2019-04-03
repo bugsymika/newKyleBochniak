@@ -7,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100vw;
-  height: 90vh;
+  height: 89vh;
   background-color: black;
   overflow: hidden;
 }
@@ -34,5 +34,9 @@ a:active {
 @media (min-width: 1024px) {
   #root {
     margin-top: 0px;
+  }
+
+  body {
+    height: 100vh;
   }
 }
