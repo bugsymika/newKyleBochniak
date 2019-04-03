@@ -1,0 +1,58 @@
+.header-parent {
+  width: 100vw;
+  height: 5vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Roboto Mono', monospace;
+  border-bottom: 1px solid white;
+  box-sizing: border-box;
+}
+
+.header-parent :nth-child(3) {
+  border: none;
+}
+
+.header-tab {
+  font-size: 0.6rem;
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+  box-sizing: border-box;
+  border-right: 1px solid white;
+}
+
+i {
+  zoom: 0.6;
+  margin: auto;
+}
+
+@media (min-width: 321px) {
+  .header-tab {
+    font-size: 0.7rem;
+    padding: 6px;
+  }
+
+  i {
+    zoom: 0.8;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-tab {
+    font-size: 1.3rem;
+    padding: 10px;
+  }
+  i {
+    zoom: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-parent {
+    display: none;
+  }
+}

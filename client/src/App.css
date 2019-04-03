@@ -1,0 +1,22 @@
+header,
+footer {
+  height: 5vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.desktop {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .desktop {
+    display: inline-block;
+    border-top: none;
+    border-bottom: 1px solid black;
+  }
+
+  .mobile {
+    display: none;
+  }
+}

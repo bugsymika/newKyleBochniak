@@ -1,0 +1,65 @@
+.content-container {
+  height: 87vh;
+  width: 100vw;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+
+.content-div {
+  height: 90vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: cover;
+  background-position-x: 50%;
+}
+
+#landing {
+  background-image: url('../../images/background.jpg');
+  background-position-x: 48%;
+}
+
+#about {
+  background-image: url('../../images/aboutBG.jpg');
+}
+
+.blackout {
+  background-color: rgba(0, 0, 0, 0.589);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#contact {
+  background-image: url('../../images/contactBG.jpg');
+}
+
+.contact-content {
+  color: white;
+  text-align: center;
+}
+
+.contact-content h2 {
+  margin: 0px;
+}
+
+.nav-icons {
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.nav-tab {
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  align-content: space-between;
+}
+
+@media (min-width: 1024px) {
+  .content-container,
+  .content-div {
+    height: 97.5vh;
+  }
+}
