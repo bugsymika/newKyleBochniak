@@ -5,6 +5,7 @@ import Nav from './Nav.js';
 export default function Content() {
   return (
     <div className='content-content'>
+      <Nav />
       <div className='content-container'>
         <div className='content-div' id='landing' />
         <div className='content-div' id='about'>
@@ -75,8 +76,6 @@ export default function Content() {
           </div>
         </div>
       </div>
-      <Nav />
-      <div id='mobileSpacer' />
     </div>
   );
 }

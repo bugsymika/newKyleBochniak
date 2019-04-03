@@ -4,10 +4,9 @@
 }
 
 .content-container {
-  height: 94vh;
+  height: 97vh;
   width: 100vw;
   overflow: scroll;
-  scroll-behavior: smooth;
 }
 
 .content-div {
@@ -71,6 +70,7 @@
   .content-container,
   .content-div {
     height: 97.5vh;
+    scroll-behavior: smooth;
   }
   #mobileSpacer {
     display: none;
