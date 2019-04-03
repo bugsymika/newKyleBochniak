@@ -76,6 +76,7 @@ export default function Content() {
         </div>
       </div>
       <Nav />
+      <div id='mobileSpacer' />
     </div>
   );
 }

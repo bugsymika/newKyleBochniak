@@ -4,7 +4,7 @@
 }
 
 .content-container {
-  height: 97vh;
+  height: 94vh;
   width: 100vw;
   overflow: scroll;
   scroll-behavior: smooth;
@@ -62,9 +62,17 @@
   align-content: space-between;
 }
 
+#mobileSpacer {
+  height: 3vh;
+  background-color: black;
+}
+
 @media (min-width: 1024px) {
   .content-container,
   .content-div {
     height: 97.5vh;
+  }
+  #mobileSpacer {
+    display: none;
   }
 }
