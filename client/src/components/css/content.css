@@ -6,7 +6,7 @@
 }
 
 .content-content {
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
 }
 
@@ -75,13 +75,14 @@ p {
 h2 {
   padding-top: 10%;
   padding-bottom: 10%;
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 
 h3 {
   width: fit-content;
   margin: auto;
   padding-top: 10%;
+  font-size: 1.2rem;
 }
 
 p {
@@ -92,7 +93,7 @@ p {
   h2 {
     padding-top: 10%;
     padding-bottom: 10%;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 
   h3 {

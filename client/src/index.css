@@ -8,6 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   width: 100vw;
   height: 100vh;
+  background-color: black;
 }
 
 html {
@@ -27,4 +28,14 @@ a {
 
 a:active {
   color: blue;
+}
+
+#root {
+  margin-top: 5vh;
+}
+
+@media (min-width: 1024px) {
+  #root {
+    margin-top: 0px;
+  }
 }
