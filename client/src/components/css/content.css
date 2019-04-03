@@ -11,7 +11,7 @@
 }
 
 .content-container {
-  height: 97vh;
+  height: 90vh;
   width: 100vw;
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 300;
@@ -20,7 +20,7 @@
 }
 
 .content-div {
-  height: 97vh;
+  height: 90vh;
   width: 100vw;
   background-repeat: no-repeat;
   background-color: black;
@@ -135,7 +135,7 @@ p {
   .contact-content {
     width: 75vw;
     height: fit-content;
-    padding-top: 14vh;
+    padding-top: 14 vh;
     margin: auto;
   }
 
