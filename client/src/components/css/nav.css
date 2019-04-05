@@ -10,12 +10,9 @@
   border-top: 1px solid rgb(0, 0, 0);
 }
 
-.nav :hover {
-  background-image: linear-gradient(
-    rgb(20, 20, 20),
-    rgb(121, 117, 117),
-    rgb(20, 20, 20)
-  );
+p:hover {
+  text-decoration: none;
+  text-emphasis: none;
 }
 
 .nav :nth-child(3) {
@@ -58,5 +55,13 @@
   .nav-div p {
     text-align: center;
     font-size: 2rem;
+  }
+
+  .nav :hover {
+    background-image: linear-gradient(
+      rgb(20, 20, 20),
+      rgb(121, 117, 117),
+      rgb(20, 20, 20)
+    );
   }
 }

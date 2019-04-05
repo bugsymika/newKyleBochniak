@@ -23,7 +23,7 @@ export default function Content() {
                 I offer private or group sessions in Boxing, Kickboxing,
                 Brazilian Jiu-Jitsu, MMA and Strength & Conditioning
                 <br />
-                $100 per hour / $60 per half hour
+                $100 per hour / $60 per half hour, located in the city of Boston
               </p>
 
               <div className='scheduleBox'>
