@@ -14,10 +14,11 @@ export default function Nav() {
           <p>Booking</p>
         </div>
       </a>
-
-      <div className='nav-div'>
-        <p>Gallery</p>
-      </div>
+      <a href='#gallery'>
+        <div className='nav-div'>
+          <p>Gallery</p>
+        </div>
+      </a>
     </div>
   );
 }

@@ -1,8 +1,12 @@
 import React from 'react';
 import './css/content.css';
 import Nav from './Nav.js';
-
+import Images from './Images';
 export default function Content() {
+  // const videos = [
+  //   'https://s3.us-east-2.amazonaws.com/crashbochniak/videos/video-1552672131+(2).mp4'
+  // ];
+
   return (
     <div className='content-content'>
       <div className='content-container'>
@@ -10,7 +14,11 @@ export default function Content() {
           <Nav />
         </div>
 
-        <div className='content-div' id='landing' />
+        <div className='content-div' id='landing'>
+          <h1>
+            Kyle <span className='red'>CRASH</span> Bochniak
+          </h1>
+        </div>
         <div className='content-div' id='about'>
           <div className='blackout' />
         </div>
@@ -75,6 +83,12 @@ export default function Content() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div id='gallery'>
+          <h2>Gallery</h2>
+          <div className='image-container'>
+            <Images />
           </div>
         </div>
       </div>

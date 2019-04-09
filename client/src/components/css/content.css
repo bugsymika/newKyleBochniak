@@ -10,6 +10,17 @@
   width: 100vw;
 }
 
+#landing h1 {
+  color: white;
+  font-size: 3rem;
+  text-align: left;
+  padding: 20px;
+}
+
+.red {
+  color: red;
+}
+
 .content-container {
   height: 88.5vh;
   width: 100vw;
@@ -26,6 +37,7 @@
   background-color: black;
   background-size: cover;
   background-position-x: 50%;
+  overflow-x: hidden;
 }
 
 #landing {
@@ -87,6 +99,30 @@ h3 {
 
 p {
   font-size: 1rem;
+}
+
+#gallery {
+  min-height: 90vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: cover;
+  background-position-x: 50%;
+  color: white;
+  background-image: url('../../images/connectwork.png');
+  background-repeat: repeat;
+  background-size: 10%;
+}
+
+#gallery h2 {
+  text-align: center;
+  margin: 0px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 @media (min-width: 321px) {
